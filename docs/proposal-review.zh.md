@@ -1,5 +1,7 @@
 # AuRel proposal 评审与实施路线
 
+> 历史评审。2026-11-10上传的DOCX及用户要求已校准主线，见[新报告](proposal-calibration.zh.md)。下文安全、搜索和缩减方案不再作为当前必做任务。
+
 2026-10-21。基于用户提供的 Notion proposal 已读取章节：会议记录、目标、范围、动机、核心关系、RQ、Method 1–9、相关研究和候选模型。Experimental Design 展开后未显示具体实验内容。本文是建议稿，不是原 Notion 的修改。
 
 原稿：https://app.notion.com/p/AuRel-Metamorphic-Testing-of-Task-Conditioned-Acoustic-Reliance-in-Audio-Language-Models-34d8dc77c85580728f5adade37557b1c
