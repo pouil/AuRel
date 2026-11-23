@@ -15,7 +15,10 @@
 
 新增测试覆盖配置变化拒绝复用、空答案、失败后保留重试历史、子进程直接退出后恢复未完成条目，以及备份完整性。中断测试模拟进程非正常退出，不等价于物理断电测试。
 
-命令：`python -m unittest discover -s tests -p test_run_store.py -v`。本提交通过PR触发CI后再记录远端结果；当前执行环境的工作区为只读，因此没有本地运行结果。真实模型、数据许可清单与音频缓存下载校验仍未接通；不得据此启动长时间推理。
+- 目标命令：`python -m unittest discover -s tests -p test_run_store.py -v`。
+- GitHub Actions workflow run 23（commit `875ace9d37e317c476d124454af862f996e3c891`，2026-11-23）在Python 3.11.18执行 `python -m unittest discover -s tests -v`：26项全部通过，包含5项run-store测试。
+- 同一CI的 `python -m aurel.cli --budget 40` 成功，但输出为 `synthetic_only: true`，明确只是旧合成演示，不是真实语音或模型证据。
+- 当前执行环境工作区只读，本机未运行该命令。真实模型、数据许可清单与音频缓存下载校验仍未接通；不得据此启动长时间推理。
 
 ## 下一步
 
