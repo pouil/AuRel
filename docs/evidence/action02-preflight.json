@@ -1,0 +1,1 @@
+{"check":"SQLite committed row survives process exit; uncommitted row rolls back","passed":true,"child_exit":7,"rows":[[1,"committed"]],"integrity":"ok","scope":"environment preflight only; not AuRel runner or physical power-loss validation"}

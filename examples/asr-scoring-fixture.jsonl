@@ -1,0 +1,2 @@
+{"source_id":"fixture-a","reference":"one two three","clean":"one two three","perturbed":"one two"}
+{"source_id":"fixture-b","reference":"four","clean":"four","perturbed":""}
